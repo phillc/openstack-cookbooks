@@ -8,7 +8,7 @@ Add your SSH key to your user - ~/.ssh/id_dsa or ~/.ssh/id_rsa
 
 As your user, do:
 
-curl http://c0020195.cdn1.cloudfiles.rackspacecloud.com/install-swift.sh > install-swift.sh
+wget -q -O install-swift.sh http://c0020195.cdn1.cloudfiles.rackspacecloud.com/install-swift.sh
 bash ./install-swift.sh
 
 You'll be prompted for your username, your group (which is most likely just
