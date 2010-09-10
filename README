@@ -11,6 +11,11 @@ As your user, do:
 wget -q -O install-swift.sh http://c0020195.cdn1.cloudfiles.rackspacecloud.com/install-swift.sh
 bash ./install-swift.sh
 
+or for my fork:
+
+wget -q -O install-swift.sh http://github.com/phillc/openstack-cookbooks/raw/master/install-swift.sh
+bash ./install-swift.sh
+
 You'll be prompted for your username, your group (which is most likely just
 your username again), your Launchpad login, and the email address you want any
 bzr commits to use.
