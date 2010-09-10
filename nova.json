@@ -1,0 +1,18 @@
+{
+  "run_list": [ 
+    "role[redis-server]",
+    "role[rabbitmq-server]",
+    "role[openldap-server]",
+    "role[nova-api]",
+    "role[nova-backend]",
+    "role[nova-head]",
+    "role[nova-network]",
+    "role[nova-objectstore]",
+    "role[nova-scheduler]",
+    "role[nova-support-servers]",
+    "role[nova-volume]",
+    "role[nova-compute]" ],
+  "nova": {
+  }
+}
+
